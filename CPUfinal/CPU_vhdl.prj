@@ -1,0 +1,7 @@
+vhdl work "F:\VHDLProject\CPUfinal\WB.vhd"
+vhdl work "F:\VHDLProject\CPUfinal\Memory.vhd"
+vhdl work "F:\VHDLProject\CPUfinal\MC.vhd"
+vhdl work "F:\VHDLProject\CPUfinal\FI.vhd"
+vhdl work "F:\VHDLProject\CPUfinal\ED.vhd"
+vhdl work "F:\VHDLProject\CPUfinal\clock.vhd"
+vhdl work "F:\VHDLProject\CPUfinal\CPU.vhd"

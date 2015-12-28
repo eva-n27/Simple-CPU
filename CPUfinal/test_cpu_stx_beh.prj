@@ -1,0 +1,8 @@
+vhdl isim_temp "WB.vhd"
+vhdl isim_temp "Memory.vhd"
+vhdl isim_temp "MC.vhd"
+vhdl isim_temp "FI.vhd"
+vhdl isim_temp "ED.vhd"
+vhdl isim_temp "clock.vhd"
+vhdl isim_temp "CPU.vhd"
+vhdl isim_temp "test_cpu.vhd"

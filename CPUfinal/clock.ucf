@@ -1,0 +1,7 @@
+NET "clk" LOC = "p75";
+NET "reset" LOC = "p51";##K4(7)
+
+NET "t0" LOC="p196";
+NET "t1" LOC="p193";
+NET "t2" LOC="p192";
+NET "t3" LOC="p190";

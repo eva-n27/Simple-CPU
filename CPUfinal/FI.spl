@@ -1,0 +1,9 @@
+[Inputs]
+t0
+t3
+rst
+pc_update
+=pc_new[15:0]=
+[Outputs]
+=pc_out[15:0]=
+[BiDir]

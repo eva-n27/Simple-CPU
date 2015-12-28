@@ -1,0 +1,5 @@
+set -tmpdir "F:/VHDLProject/CPUnew/xst/projnav.tmp"
+set -xsthdpdir "F:/VHDLProject/CPUnew/xst"
+elaborate
+-ifn clock.prj
+-ifmt mixed

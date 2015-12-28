@@ -1,0 +1,14 @@
+EN clock NULL F:/VHDLProject/CPUfinal/clock.vhd sub00/vhpl06 1438833822
+EN ed NULL F:/VHDLProject/CPUfinal/ED.vhd sub00/vhpl02 1438833826
+EN fi NULL F:/VHDLProject/CPUfinal/FI.vhd sub00/vhpl00 1438833824
+AR wb behavioral F:/VHDLProject/CPUfinal/WB.vhd sub00/vhpl05 1438833831
+AR cpu behavioral F:/VHDLProject/CPUfinal/CPU.vhd sub00/vhpl13 1438833835
+EN cpu NULL F:/VHDLProject/CPUfinal/CPU.vhd sub00/vhpl12 1438833834
+EN mc NULL F:/VHDLProject/CPUfinal/MC.vhd sub00/vhpl10 1438833832
+AR fi behavioral F:/VHDLProject/CPUfinal/FI.vhd sub00/vhpl01 1438833825
+AR clock behavioral F:/VHDLProject/CPUfinal/clock.vhd sub00/vhpl07 1438833823
+EN memory NULL F:/VHDLProject/CPUfinal/Memory.vhd sub00/vhpl08 1438833828
+EN wb NULL F:/VHDLProject/CPUfinal/WB.vhd sub00/vhpl04 1438833830
+AR memory behavioral F:/VHDLProject/CPUfinal/Memory.vhd sub00/vhpl09 1438833829
+AR ed behavioral F:/VHDLProject/CPUfinal/ED.vhd sub00/vhpl03 1438833827
+AR mc behavioral F:/VHDLProject/CPUfinal/MC.vhd sub00/vhpl11 1438833833

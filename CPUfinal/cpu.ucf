@@ -1,0 +1,119 @@
+NET "reset" CLOCK_DEDICATED_ROUTE = TRUE;
+NET "clk" LOC = "p75";
+NET "reset" LOC = "p51";##K4(7)
+
+NET "DataBus(0)" LOC="p167";
+NET "DataBus(1)" LOC="p165";
+NET "DataBus(2)" LOC="p164";
+NET "DataBus(3)" LOC="p163";
+NET "DataBus(4)" LOC="p162";
+NET "DataBus(5)" LOC="p161";
+NET "DataBus(6)" LOC="p160";
+NET "DataBus(7)" LOC="p153";
+
+NET "DataBus(8)" LOC="p120";
+NET "DataBus(9)" LOC="p122";
+NET "DataBus(10)" LOC="p123";
+NET "DataBus(11)" LOC="p128";
+NET "DataBus(12)" LOC="p132";
+NET "DataBus(13)" LOC="p133";
+NET "DataBus(14)" LOC="p134";
+NET "DataBus(15)" LOC="p135";
+
+NET "AddrBus(0)" LOC="p179";
+NET "AddrBus(1)" LOC="p178";
+NET "AddrBus(2)" LOC="p177";
+NET "AddrBus(3)" LOC="p172";
+NET "AddrBus(4)" LOC="p171";
+NET "AddrBus(5)" LOC="p151";
+NET "AddrBus(6)" LOC="p150";
+NET "AddrBus(7)" LOC="p147";
+
+NET "AddrBus(8)" LOC="p146";
+NET "AddrBus(9)" LOC="p113";
+NET "AddrBus(10)" LOC="p115";
+NET "AddrBus(11)" LOC="p116";
+NET "AddrBus(12)" LOC="p119";
+NET "AddrBus(13)" LOC="p140";
+NET "AddrBus(14)" LOC="p144";
+NET "AddrBus(15)" LOC="p145";
+
+NET "nMPREQ" LOC="p168";
+NET "nWR" LOC="p152";
+NET "nRD" LOC="p139";
+NET "nBHE" LOC="p138";
+NET "nBLE" LOC="p137";
+
+NET "Cy" LOC="p100";##A1 
+NET "Z" LOC="p99";##A2
+NET "oWR" LOC="p98";##A3
+NET "oBLE" LOC="p83";##A4
+NET "oBHE" LOC="p82";##A5
+NET "oRD" LOC="p77";##A6
+NET "oMPREQ" LOC="p185";##A7
+
+NET "S0(0)" LOC="p4";
+NET "S0(1)" LOC="p5";
+NET "S0(2)" LOC="p8";
+NET "S0(3)" LOC="p9";
+NET "S0(4)" LOC="p11";
+NET "S0(5)" LOC="p12";
+NET "S0(6)" LOC="p15";
+NET "S0(7)" LOC="p16";
+
+NET "S1(0)" LOC="p18";
+NET "S1(1)" LOC="p19";
+NET "S1(2)" LOC="p22";
+NET "S1(3)" LOC="p23";
+NET "S1(4)" LOC="p24";
+NET "S1(5)" LOC="p25";
+NET "S1(6)" LOC="p28";
+NET "S1(7)" LOC="p29";
+
+NET "S2(0)" LOC="p31";
+NET "S2(1)" LOC="p33";
+NET "S2(2)" LOC="p34";
+NET "S2(3)" LOC="p35";
+NET "S2(4)" LOC="p36";
+NET "S2(5)" LOC="p39";
+NET "S2(6)" LOC="p40";
+NET "S2(7)" LOC="p41";
+
+NET "S3(0)" LOC="p42";
+NET "S3(1)" LOC="p45";
+NET "S3(2)" LOC="p47";
+NET "S3(3)" LOC="p48";
+NET "S3(4)" LOC="p49";
+NET "S3(5)" LOC="p50";
+NET "S3(6)" LOC="p55";
+NET "S3(7)" LOC="p56";
+
+NET "S4(0)" LOC="p60";
+NET "S4(1)" LOC="p61";
+NET "S4(2)" LOC="p62";
+NET "S4(3)" LOC="p63";
+NET "S4(4)" LOC="p2";
+NET "S4(5)" LOC="p108";
+NET "S4(6)" LOC="p109";
+NET "S4(7)" LOC="p112";
+
+NET "S5(0)" LOC="p126";
+NET "S5(1)" LOC="p127";
+NET "S5(2)" LOC="p129";
+NET "S5(3)" LOC="p202";
+NET "S5(4)" LOC="p203";
+NET "S5(5)" LOC="p205";
+NET "S5(6)" LOC="p206";
+NET "S5(7)" LOC="p103";
+
+NET "B(0)" LOC="p196";
+NET "B(1)" LOC="p193";
+NET "B(2)" LOC="p192";
+NET "B(3)" LOC="p190";
+
+NET "IrSel" LOC="p154";#K0(0)
+NET "RegSel(0)" LOC="p148";#K0(1)
+NET "RegSel(1)" LOC="p142";#K0(2)
+NET "RegSel(2)" LOC="p136";#K0(3)
+NET "PcSel" LOC="p130";#K0(4)
+#NET "IrSel" CLOCK_DEDICATED_ROUTE = TRUE;

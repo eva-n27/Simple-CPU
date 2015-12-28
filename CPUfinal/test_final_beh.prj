@@ -1,0 +1,8 @@
+vhdl work "WB.vhd"
+vhdl work "Memory.vhd"
+vhdl work "MC.vhd"
+vhdl work "FI.vhd"
+vhdl work "ED.vhd"
+vhdl work "clock.vhd"
+vhdl work "CPU.vhd"
+vhdl work "test_final.vhd"

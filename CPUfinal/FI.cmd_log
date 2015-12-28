@@ -1,0 +1,2 @@
+vhdtdtfi -lib work FI.vhd -prj CPU -o FI.spl -module FI -template E:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FI.spl F:/VHDLProject/CPU/FI.sym 

@@ -1,0 +1,16 @@
+Release 14.3 - WebTalk (P.40xd)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Project Information
+--------------------
+ProjectID=740386C9BC0A4D6FB5AD140E0E105F10
+ProjectIteration=49
+
+WebTalk Summary
+----------------
+INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
+
+INFO:WebTalk:8 - WebTalk Install setting is ON.
+INFO:WebTalk:6 - WebTalk User setting is ON.
+
+INFO:WebTalk:4 - F:/VHDLProject/CPUfinal/usage_statistics_webtalk.html WebTalk report has been successfully sent to Xilinx on 2015-08-06T12:06:43.  For additional details about this file, please refer to the WebTalk help file at E:/Xilinx/14.3/ISE_DS/ISE/data/reports/webtalk_introduction.html

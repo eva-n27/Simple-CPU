@@ -1,0 +1,282 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+E:\Xilinx\14.3\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf cpu.ucf
+
+Design file:              CPU.ncd
+Physical constraint file: CPU.pcf
+Device,package,speed:     xc3s500e,pq208,-4 (PRODUCTION 1.27 2012-10-12)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock reset
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+DataBus<0>  |   -0.389(R)|    3.037(R)|reset_IBUF        |   0.000|
+DataBus<1>  |    0.987(R)|    3.229(R)|reset_IBUF        |   0.000|
+DataBus<2>  |   -1.340(R)|    3.503(R)|reset_IBUF        |   0.000|
+DataBus<3>  |   -0.570(R)|    2.754(R)|reset_IBUF        |   0.000|
+DataBus<4>  |   -0.140(R)|    2.971(R)|reset_IBUF        |   0.000|
+DataBus<5>  |   -0.160(R)|    2.653(R)|reset_IBUF        |   0.000|
+DataBus<6>  |   -0.294(R)|    3.126(R)|reset_IBUF        |   0.000|
+DataBus<7>  |   -0.170(R)|    2.940(R)|reset_IBUF        |   0.000|
+DataBus<8>  |   -0.537(R)|    2.750(R)|reset_IBUF        |   0.000|
+DataBus<9>  |   -0.395(R)|    2.567(R)|reset_IBUF        |   0.000|
+DataBus<10> |   -1.279(R)|    3.271(R)|reset_IBUF        |   0.000|
+DataBus<11> |   -1.034(R)|    3.075(R)|reset_IBUF        |   0.000|
+DataBus<12> |   -1.154(R)|    3.169(R)|reset_IBUF        |   0.000|
+DataBus<13> |   -1.170(R)|    3.181(R)|reset_IBUF        |   0.000|
+DataBus<14> |   -2.092(R)|    3.920(R)|reset_IBUF        |   0.000|
+DataBus<15> |   -1.834(R)|    3.714(R)|reset_IBUF        |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+B<0>        |   10.898(R)|my_clock/clkgp    |   0.000|
+B<1>        |    9.891(R)|my_clock/clkgp    |   0.000|
+B<2>        |   10.653(R)|my_clock/clkgp    |   0.000|
+B<3>        |   10.486(R)|my_clock/clkgp    |   0.000|
+z           |   15.024(R)|my_clock/clkgp    |   0.000|
+------------+------------+------------------+--------+
+
+Clock reset to Pad
+------------+------------+----------------------------+--------+
+            | clk (edge) |                            | Clock  |
+Destination |   to PAD   |Internal Clock(s)           | Phase  |
+------------+------------+----------------------------+--------+
+AddrBus<0>  |   11.666(R)|reset_IBUF                  |   0.000|
+AddrBus<1>  |   11.500(R)|reset_IBUF                  |   0.000|
+AddrBus<2>  |   11.262(R)|reset_IBUF                  |   0.000|
+AddrBus<3>  |   11.466(R)|reset_IBUF                  |   0.000|
+AddrBus<4>  |   11.347(R)|reset_IBUF                  |   0.000|
+AddrBus<5>  |   12.077(R)|reset_IBUF                  |   0.000|
+AddrBus<6>  |   11.737(R)|reset_IBUF                  |   0.000|
+AddrBus<7>  |   11.127(R)|reset_IBUF                  |   0.000|
+AddrBus<8>  |   11.580(R)|reset_IBUF                  |   0.000|
+AddrBus<9>  |   12.406(R)|reset_IBUF                  |   0.000|
+AddrBus<10> |   11.475(R)|reset_IBUF                  |   0.000|
+AddrBus<11> |   11.470(R)|reset_IBUF                  |   0.000|
+AddrBus<12> |   11.518(R)|reset_IBUF                  |   0.000|
+AddrBus<13> |   11.323(R)|reset_IBUF                  |   0.000|
+AddrBus<14> |   12.206(R)|reset_IBUF                  |   0.000|
+AddrBus<15> |   11.826(R)|reset_IBUF                  |   0.000|
+DataBus<0>  |   13.723(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<1>  |   13.729(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<2>  |   13.729(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<3>  |   14.287(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<4>  |   14.287(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<5>  |   13.490(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<6>  |   13.490(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<7>  |   13.802(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<8>  |   13.886(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<9>  |   13.893(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<10> |   13.893(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<11> |   13.681(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<12> |   13.672(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<13> |   13.672(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<14> |   13.671(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+DataBus<15> |   13.671(F)|my_mc/Mtrien_DataBus_not0001|   0.000|
+S0<0>       |   15.109(R)|reset_IBUF                  |   0.000|
+S0<1>       |   14.329(R)|reset_IBUF                  |   0.000|
+S0<2>       |   14.912(R)|reset_IBUF                  |   0.000|
+S0<3>       |   14.517(R)|reset_IBUF                  |   0.000|
+S0<4>       |   13.532(R)|reset_IBUF                  |   0.000|
+S0<5>       |   13.182(R)|reset_IBUF                  |   0.000|
+S0<6>       |   13.681(R)|reset_IBUF                  |   0.000|
+S0<7>       |   14.920(R)|reset_IBUF                  |   0.000|
+S1<0>       |   13.854(R)|reset_IBUF                  |   0.000|
+S1<1>       |   15.289(R)|reset_IBUF                  |   0.000|
+S1<2>       |   14.036(R)|reset_IBUF                  |   0.000|
+S1<3>       |   13.682(R)|reset_IBUF                  |   0.000|
+S1<4>       |   14.722(R)|reset_IBUF                  |   0.000|
+S1<5>       |   15.158(R)|reset_IBUF                  |   0.000|
+S1<6>       |   15.060(R)|reset_IBUF                  |   0.000|
+S1<7>       |   15.054(R)|reset_IBUF                  |   0.000|
+S2<0>       |   11.935(R)|reset_IBUF                  |   0.000|
+S2<1>       |   11.941(R)|reset_IBUF                  |   0.000|
+S2<2>       |   12.475(R)|reset_IBUF                  |   0.000|
+S2<3>       |   12.709(R)|reset_IBUF                  |   0.000|
+S2<4>       |   12.193(R)|reset_IBUF                  |   0.000|
+S2<5>       |   12.280(R)|reset_IBUF                  |   0.000|
+S2<6>       |   12.730(R)|reset_IBUF                  |   0.000|
+S2<7>       |   12.836(R)|reset_IBUF                  |   0.000|
+S3<0>       |   13.477(R)|reset_IBUF                  |   0.000|
+S3<1>       |   14.327(R)|reset_IBUF                  |   0.000|
+S3<2>       |   14.160(R)|reset_IBUF                  |   0.000|
+S3<3>       |   14.659(R)|reset_IBUF                  |   0.000|
+S3<4>       |   14.910(R)|reset_IBUF                  |   0.000|
+S3<5>       |   14.694(R)|reset_IBUF                  |   0.000|
+S3<6>       |   14.909(R)|reset_IBUF                  |   0.000|
+S3<7>       |   15.069(R)|reset_IBUF                  |   0.000|
+S4<0>       |   14.688(R)|reset_IBUF                  |   0.000|
+S4<1>       |   14.085(R)|reset_IBUF                  |   0.000|
+S4<2>       |   14.103(R)|reset_IBUF                  |   0.000|
+S4<3>       |   14.524(R)|reset_IBUF                  |   0.000|
+S4<4>       |   14.360(R)|reset_IBUF                  |   0.000|
+S4<5>       |   13.854(R)|reset_IBUF                  |   0.000|
+S4<6>       |   14.220(R)|reset_IBUF                  |   0.000|
+S4<7>       |   13.230(R)|reset_IBUF                  |   0.000|
+S5<0>       |   11.191(R)|reset_IBUF                  |   0.000|
+S5<1>       |   11.460(R)|reset_IBUF                  |   0.000|
+S5<2>       |   11.650(R)|reset_IBUF                  |   0.000|
+S5<3>       |   12.671(R)|reset_IBUF                  |   0.000|
+S5<4>       |   12.576(R)|reset_IBUF                  |   0.000|
+S5<5>       |   12.773(R)|reset_IBUF                  |   0.000|
+S5<6>       |   12.797(R)|reset_IBUF                  |   0.000|
+S5<7>       |   12.689(R)|reset_IBUF                  |   0.000|
+nBHE        |   10.838(R)|reset_IBUF                  |   0.000|
+nBLE        |   10.838(R)|reset_IBUF                  |   0.000|
+nMPREQ      |   11.395(R)|reset_IBUF                  |   0.000|
+nRD         |   11.427(R)|reset_IBUF                  |   0.000|
+nWR         |   11.943(R)|reset_IBUF                  |   0.000|
+oBHE        |   12.632(R)|reset_IBUF                  |   0.000|
+oBLE        |   12.911(R)|reset_IBUF                  |   0.000|
+oMPREQ      |   13.460(R)|reset_IBUF                  |   0.000|
+oRD         |   13.785(R)|reset_IBUF                  |   0.000|
+oWR         |   11.922(R)|reset_IBUF                  |   0.000|
+z           |   25.029(R)|reset_IBUF                  |   0.000|
+------------+------------+----------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.934|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    8.212|         |    7.507|         |
+reset          |    9.647|         |    9.943|    3.483|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DataBus<0>     |S3<0>          |   11.203|
+DataBus<1>     |S3<1>          |   12.485|
+DataBus<2>     |S3<2>          |   11.721|
+DataBus<3>     |S3<3>          |   12.906|
+DataBus<4>     |S3<4>          |   12.715|
+DataBus<5>     |S3<5>          |   12.345|
+DataBus<6>     |S3<6>          |   10.700|
+DataBus<7>     |S3<7>          |   11.217|
+DataBus<8>     |S4<0>          |   10.139|
+DataBus<9>     |S4<1>          |   10.328|
+DataBus<10>    |S4<2>          |   10.285|
+DataBus<11>    |S4<3>          |   10.192|
+DataBus<12>    |S4<4>          |    9.330|
+DataBus<13>    |S4<5>          |    7.789|
+DataBus<14>    |S4<6>          |    7.595|
+DataBus<15>    |S4<7>          |    7.472|
+IrSel          |S0<0>          |   11.304|
+IrSel          |S0<1>          |   11.058|
+IrSel          |S0<2>          |   10.379|
+IrSel          |S0<3>          |   10.581|
+IrSel          |S0<4>          |   11.059|
+IrSel          |S0<5>          |    9.416|
+IrSel          |S0<6>          |   10.690|
+IrSel          |S0<7>          |   11.104|
+IrSel          |S1<0>          |   11.004|
+IrSel          |S1<1>          |   11.304|
+IrSel          |S1<2>          |   11.187|
+IrSel          |S1<3>          |   11.187|
+IrSel          |S1<4>          |   11.667|
+IrSel          |S1<5>          |   11.483|
+IrSel          |S1<6>          |   11.815|
+IrSel          |S1<7>          |   11.983|
+PcSel          |S3<0>          |    9.926|
+PcSel          |S3<1>          |   10.158|
+PcSel          |S3<2>          |   10.536|
+PcSel          |S3<3>          |   10.250|
+PcSel          |S3<4>          |   10.707|
+PcSel          |S3<5>          |    9.996|
+PcSel          |S3<6>          |   10.329|
+PcSel          |S3<7>          |   10.793|
+PcSel          |S4<0>          |   10.429|
+PcSel          |S4<1>          |   10.344|
+PcSel          |S4<2>          |    9.833|
+PcSel          |S4<3>          |   10.364|
+PcSel          |S4<4>          |    9.725|
+PcSel          |S4<5>          |    8.114|
+PcSel          |S4<6>          |    8.077|
+PcSel          |S4<7>          |    7.635|
+RegSel<0>      |S0<0>          |   10.355|
+RegSel<0>      |S0<1>          |   10.841|
+RegSel<0>      |S0<2>          |   10.123|
+RegSel<0>      |S0<3>          |   10.492|
+RegSel<0>      |S0<4>          |    9.607|
+RegSel<0>      |S0<5>          |    8.731|
+RegSel<0>      |S0<6>          |    9.777|
+RegSel<0>      |S0<7>          |   10.381|
+RegSel<1>      |S0<0>          |   12.160|
+RegSel<1>      |S0<1>          |   11.735|
+RegSel<1>      |S0<2>          |   12.207|
+RegSel<1>      |S0<3>          |   11.066|
+RegSel<1>      |S0<4>          |   10.724|
+RegSel<1>      |S0<5>          |   10.456|
+RegSel<1>      |S0<6>          |   10.305|
+RegSel<1>      |S0<7>          |   11.350|
+RegSel<2>      |S0<0>          |   12.301|
+RegSel<2>      |S0<1>          |   11.621|
+RegSel<2>      |S0<2>          |   11.739|
+RegSel<2>      |S0<3>          |   11.277|
+RegSel<2>      |S0<4>          |   11.235|
+RegSel<2>      |S0<5>          |   10.578|
+RegSel<2>      |S0<6>          |   11.111|
+RegSel<2>      |S0<7>          |   12.288|
+reset          |z              |   12.760|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Aug 06 12:06:15 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 141 MB
+
+
+

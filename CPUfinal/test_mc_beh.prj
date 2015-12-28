@@ -1,0 +1,2 @@
+vhdl work "MC.vhd"
+vhdl work "test_mc.vhd"
